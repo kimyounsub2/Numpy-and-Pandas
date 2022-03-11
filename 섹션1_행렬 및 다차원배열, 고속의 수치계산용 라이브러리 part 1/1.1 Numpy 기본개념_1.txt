@@ -1,0 +1,34 @@
+
+1. Numpy_import - 설치된 상태에서 먼저 임포트 시켜줘야 한다.
+import numpy as np 
+
+2. Numpy_array - numpy를 이용하여 1차원 배열 만들기
+ar1 = np.array([1,2,3,4,5])
+ar1
+array([1,2,3,4,5])
+
+3. Numpy_shape(1) - 배열의 모양, 형태, 몸매, 체형을 알수있다.
+arr1 = np.array([1,2,3])
+arr1.Numpy_shape
+(3,)
+
+arr2 = np.array(["a","b","c"])
+arr2.shape 
+(3,)
+
+arr3 = np.array([1,2,3, "a","b","c"])
+arr3.shape
+(6,)
+
+4. Numpy_shape(2) - 넘파이 다차원 배열(2차원 배열)
+arr1 = np.array([[1,2,3],[4,5,6]])
+arr1.shape
+(2,3)
+
+arr2 = np.array([[1,2,3,4],[5,6,7,8,][9,10,11,12]])
+arr2.shape
+(3,4)
+
+arr3 = np.array([[1,2,3],[5,6,7],[10,11,12]])
+arr3.shape
+(3,3)
