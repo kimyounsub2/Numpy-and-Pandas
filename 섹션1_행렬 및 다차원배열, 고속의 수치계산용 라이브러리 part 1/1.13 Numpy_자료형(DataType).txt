@@ -1,0 +1,41 @@
+Numpy_자료형(Datatype) - 1
+
+# 넘파이의 자료형은 많다
+    -> 데이터 분석 및 수치 과학 분야에서는 ㅣ본 자료형만으로는 부족하기 때문에 다양한 크기의 자료형 필요
+ 
+# 넘파이 자료형
+    -> integer (i)
+    -> unsigned integer (u)
+    -> single precision float (f)
+    -> double precision float (d)
+    -> bool (b)
+    -> complex (D)
+    -> string (S)
+    -> unicode (U)
+ 
+# 각 자료형에 대한 문자 코드
+    i, u, f, d, b, D, S, U
+
+# 넘파이 자료형 특징
+    -> 우선 많다.
+    -> 각각의 자료형에는 해당 자료형으로 변환하는 함수가 있다.
+    -> 배열 생성시 대부분의 넘파이 함수는 자료형을 선택하 수 있도록 지원해준다.
+    -> 변환 불가능 : 복소수 -> 정수,실수형x
+    -> 넘파이 배열의 각 요소들은 모두 동일한 자료형으로 구성된다.
+
+# 자료형 객체
+    -> 자료형 객체는 numpy.dtype 클래스의 인스턴스(instance)다.
+    -> 자료형 객체내 여러 속성(property)들이 있다.
+
+# 정수형(int:integer)
+    부호가 있는 정수형 : int8, int16, int32, int64
+    부호가 없는 정수형 : unit8, unit16, unit32,unit64
+    -> 각각의 자료형 끝에 나타나보이는 숫자는 해당 자료형의 크기(bit)를 나타내는 것
+
+# 실수형(float)
+    float16, float32, float64
+    -> 각각 하프(helf) 정밀도, 싱글(single) 정밀도, 더블(double) 정밀도 float형을 의미
+
+# 복소수(complex), 부울형(boolean)
+    complex64(두개의 32비트 float형으로 실수와 허수로 구성), complex128(두개의 64비트 float형)
+    True, False
