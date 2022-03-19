@@ -1,0 +1,16 @@
+
+1. Pansda Series
+    판다스의 고유 타입이자 자료구조
+    라벨(label)로 이뤄진 자료구조로써 여러 다른 종류들로 이뤄진(heterogeneous) 1차원 배열
+
+2. Series는 여러 방식으로 생성이 가능
+    - 파이썬 딕셔너리(dict)
+    - 넘파이 배열(numpy.array)
+    - 직접 리스트 입력
+
+3. Series 생성
+    인덱스 축 생성 -> index, value 둘다 확인이 가능
+    0 부터 시작되고 자동 증가되면서 인덱스 값이 채워지는 형태
+
+4. 반환
+    DataFrame의 열을 검색하게 되면 Series타빕으로 리턴을 받음
